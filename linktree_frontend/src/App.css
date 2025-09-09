@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+}
+
+.App {
+  background-image: url("./fundo-dev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #333;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.link-button {
+  background-color: #4ce6eb;
+  color: #000000;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link-button:hover {
+  background-color: #34a4a8;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #6c757d;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+    padding: 0 15px;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
